@@ -1,5 +1,9 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Maiden+Orange&display=swap');
+
 .App {
   background-color: pink;
+  background: url(./_imagens/background2.jpg);
   }
 
 .App-logo {
@@ -10,8 +14,8 @@
 }
 .App-logo2 {
   position: absolute;
-  top: -87px;
-  left: 679px;
+  top: -82px;
+  left: 673px;
   height: 300px;
   width: 280px;
   }
@@ -32,7 +36,7 @@
 
 .corpo {
   position: relative;
-  background-color: rgb(180, 238, 180);
+  background-color: rgb(164, 211, 238);
   height: 600px;
   width: 800px;
   top: 200;
@@ -44,26 +48,53 @@
 }
 .menu {
   display: inline-block;
+  
 }
 .menu ul {
   position: relative;
   list-style: none;
   text-transform: uppercase;
   font-family: sans-serif;
-  top: -78px;
+  top: -47px;
   left: 300px;
   
 }
 
 .menu li {
   position: relative;
+  font-family: 'Maiden Orange', cursive;
+  text-align: center;
+  color: rgb(138, 43, 226);
   display: inline-block;
-  background-color: rgba(180, 238, 180, 0.8);
+  background-color: rgb(180, 238, 180);
+    height: 15px;
+  width: 80px;
   padding: 10px;
-  margin: 2px;
+  margin: 3px;
   border: 2px solid rgba(138, 43, 226, 0.5);;
   box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
 
+}
+
+.menu li:hover{
+  background-color: aqua;
+  text-decoration: underline;
+  transition: background-color 0.8s;
+}
+
+.footer {
+  position: relative;
+  background-color: rgb(164, 211, 238);
+  text-align: center;
+  text-size-adjust: 13pt;
+  height: 100px;
+  width: 802px;
+  top: 200;
+  left: 211px;
+  color: white;
+  margin-top: 10px;
+  border: 2px solid rgba(138, 43, 226, 0.5);
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
 }
 
 .App-link {
