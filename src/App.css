@@ -86,12 +86,12 @@
   position: relative;
   background-color: rgb(164, 211, 238);
   text-align: center;
-  text-size-adjust: 13pt;
+  font-size: 10pt;
   height: 100px;
   width: 802px;
   top: 200;
   left: 211px;
-  color: white;
+  color: rgb(138, 43, 226);
   margin-top: 10px;
   border: 2px solid rgba(138, 43, 226, 0.5);
   box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
